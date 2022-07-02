@@ -11,6 +11,14 @@ class Person{
         address = paramAddress;
     }
 
+    //CONSTRUCTOR OVERLOADING
+    Person(String paramName){
+        this(paramName, null);
+    }
+    Person(){
+        this(null);
+    }
+
     //MEMBUAT METHOD
     void sayHello(String paramName){
         System.out.println("Hallo " + paramName + " my name is " + name);
