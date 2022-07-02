@@ -6,9 +6,9 @@ class Person{
     final String country = "Indonesia";
 
     //MEMBUAT CONTRUCTOR
-    Person(String paramName, String paramAddress){
-        name = paramName;
-        address = paramAddress;
+    Person(String name, String address){
+        this.name = name;
+        this.address = address;
     }
 
     //CONSTRUCTOR OVERLOADING
@@ -20,7 +20,7 @@ class Person{
     }
 
     //MEMBUAT METHOD
-    void sayHello(String paramName){
-        System.out.println("Hallo " + paramName + " my name is " + name);
+    void sayHello(String name){
+        System.out.println("Hallo " + name + " my name is " + this.name);
     }
 }
