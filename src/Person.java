@@ -6,6 +6,10 @@ class Person{
     final String country = "Indonesia";
 
     //MEMBUAT CONTRUCTOR
+    Person(String paramName, String paramAddress){
+        name = paramName;
+        address = paramAddress;
+    }
 
     //MEMBUAT METHOD
     void sayHello(String paramName){

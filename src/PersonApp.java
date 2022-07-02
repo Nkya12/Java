@@ -1,10 +1,10 @@
 public class PersonApp {
     public static void main(String[] args) {
         //MEMBUAT OBJECT
-        Person person1 = new Person();
-        Person person2 = new Person();
+        Person person1 = new Person("Nayandra","kepulauan riau");
+        Person person2 = new Person("otong","Makasar");
         Person person3;
-        person3 = new Person();
+        person3 = new Person("ucup","bandung");
 
         //MANIPULASI FIELD
         person1.name = "Nayandra";
