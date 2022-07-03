@@ -2,7 +2,7 @@ class managerApp {
     public static void main(String[] args) {
         
         //Membuat object dari parent class
-        Manager manager = new Manager();
+        Manager manager = new Manager("ucup");
         manager.name = "ucup";
         manager.sayHello("otong");
 
