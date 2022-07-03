@@ -1,7 +1,7 @@
 //PARENT CLASS
-class Manager {
+class Manager { ///tes
     String name;
-    
+
     Manager(String name){
         this.name = name;
     }
