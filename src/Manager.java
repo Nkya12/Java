@@ -1,5 +1,5 @@
 //PARENT CLASS
-class Manager { ///tes
+class Manager { 
     String name;
 
     Manager(String name){
